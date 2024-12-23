@@ -1,0 +1,128 @@
+
+/* General Styles */
+Body {
+    Font-family: Arial, sans-serif;
+    Line-height: 1.6;
+    Margin: 0;
+    Padding: 0;
+    Color: #ffffff;
+    Background-color: #0d0d29; /* Light background for contrast */
+  }
+  
+  /* Header Styles */
+  Header {
+    Background: #0d0d29; /* Royal Blue */
+    Color: #fff;
+    Padding: 1.5rem 0;
+    Text-align: center;
+    Box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+  
+  Navul {
+    List-style: none;
+    Padding: 0;
+    Margin: 0;
+  }
+  
+  Navul li {
+    Display: inline;
+    Margin: 0 15px;
+  }
+  
+  Navul li a {
+    Color: #1b0f85;
+    Text-decoration: none;
+    Font-weight: bold;
+  }
+  
+  Navul li a:hover {
+    Text-decoration: underline;
+    background-color: #1b0f85;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Section Styles */
+  Section {
+    Padding: 20px;
+    Margin: 20px auto;
+    Max-width: 800px;
+    Text-align: left;
+    Background: #080666;
+    Border-radius: 8px;
+    Box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  Section h1, section h2 {
+    Color: #4169E1; /* Royal Blue for headers */
+    text-align: center;
+  }
+  
+  Section p, section ul {
+    Color: #ffffff;
+  }
+  
+  /* Project Card Styles */
+  .project {
+    Margin: 15px 0;
+    Padding: 15px;
+    Background: #0d0d29; /* Light blue background for project cards */
+    Border: 2px solid #4169E1; /* Royal blue border */
+    Border-radius: 8px;
+  }
+  
+  .project a {
+    Color: #4169E1;
+    Text-decoration: none;
+    Font-weight: bold;
+  }
+  
+  .project a:hover {
+    Text-decoration: underline;
+  }
+  
+  /* Form Styles */
+  Form {
+    Margin-top: 20px;
+  }
+  
+  Form label {
+    Display: block;
+    Margin: 10px 0 5px;
+    Font-weight: bold;
+    Color: #4169E1;
+  }
+  
+  Form input, form textarea {
+    Width: 100%;
+    Padding: 10px;
+    Margin-bottom: 15px;
+    Border: 1px solid #0d0d29;
+    Border-radius: 5px;
+    Font-size: 1rem;
+  }
+  
+  Form button {
+    Background: #4169E1;
+    Color: #0d0d29;
+    Padding: 10px 15px;
+    Border: none;
+    Border-radius: 5px;
+    Cursor: pointer;
+    Font-size: 1rem;
+  }
+  
+  Form button:hover {
+    Background: #27408B; /* Darker shade of royal blue */
+  }
+  
+  /* Footer Styles */
+  Footer {
+    Background: #4169E1;
+    Color: #fff;
+    Text-align: center;
+    Padding: 1rem 0;
+    Margin-top: 20px;
+  }
+  
